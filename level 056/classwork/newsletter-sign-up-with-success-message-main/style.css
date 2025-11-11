@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color:  hsl(234, 29%, 20%);
+}
+
+.parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    width: 730px;
+    height: 540px;
+    border-radius: 30px;
+
+}
+
+.child {
+    position: relative;
+    right: 160px;
+    top: 30px;
+    height: 440px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.child #p1 {
+    font-size: 40px;
+}
+
+.child #p2 {
+    font-size: 17px;
+    padding-top: 15px;
+    color:  hsl(234, 29%, 20%);
+}
+
+.imgs {
+    width: 300px;
+}
+
+.ttt {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.ttt img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.ttt p {
+    font-size: 16px;
+    color: rgb(61, 60, 60);
+}
+
+
+.inp {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    font-family: Arial, sans-serif;
+}
+
+.inp label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 6px;
+}
+
+.inp input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+    margin-bottom: 12px;
+}
+
+.inp input::placeholder {
+    color: #aaa;
+}
+
+
+.inp button {
+    background-color: #1c1f3f; 
+    color: white;
+    padding: 14px;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+}
+
+#img1 {
+    position: relative;
+    left: 330px;
+    bottom: 525px;
+    width: 330px;
+}
