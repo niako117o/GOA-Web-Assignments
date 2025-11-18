@@ -2,7 +2,7 @@
 
 def add(num1, num2):
     result = num1 + num2
-    print("ორი რიცხვის ჯამი:", result)
+    print(result)
 add(5, 10) 
 add(20, 30) 
 
@@ -10,7 +10,7 @@ add(20, 30)
 
 def substract(num1, num2):
     result = num1 - num2
-    print("ორი რიცხვის სხვაობა:", result)
+    print(result)
 
 substract(15, 5)  
 substract(50, 20) 
