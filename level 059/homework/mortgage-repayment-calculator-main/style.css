@@ -1,0 +1,362 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=League+Spartan:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Winky+Rough:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(202, 86%, 94%);
+    font-family: Plus Jakarta Sans;
+}
+
+.parent {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+
+
+.minidiv1 {
+    height: 170px;
+    width: 390px;
+    font-size: 6px;
+    background-color: hsl(0, 0%, 100%);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 7px;
+}
+
+
+.minidiv2 {
+    height: 170px;
+    width: 330px;
+    font-size: 6px;
+    background-color:  hsl(202, 55%, 16%);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    position: relative;
+    right: 35px;
+}
+
+.montgagecalculator {
+    width: 135px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    font-size: 6px;
+    padding: 10px;
+}
+
+#p2 {
+    font-size: 5px;
+    padding-left: 27px;
+    padding-top: 1px;
+    text-decoration-line: underline;
+    color: hsl(200, 24%, 40%);
+}
+
+#p1 {
+    color: hsl(202, 55%, 16%) ;
+    font-weight: 700;
+}
+
+.mortgage {
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    position: relative;
+    left: 10px;
+}
+
+#p3 {
+    position: relative;
+    bottom: 3px;
+    color: hsl(200, 24%, 40%);
+    width: 100px;
+    font-size: 4.5px;
+}
+
+#p4 {
+    padding-left: 5px;
+    background-color: hsl(202, 86%, 94%);
+    width: 13px;
+    height: 14px;
+    font-size: 7px;
+    padding-top: 2px;
+
+}
+
+
+.button1 {
+    width: 100px;
+    height: 15px;
+    color: hsl(200, 24%, 40%);
+    border: 0.5px solid hsl(200, 24%, 40%);
+    border-radius: 1px;
+}
+
+#span1 {
+    padding-left: 15px;
+    font-weight: 700;
+    color: hsl(202, 55%, 16%);
+    padding-bottom: 30px;
+    position: relative;
+    bottom: 9px;
+    font-size: 6.7px;
+}
+
+/* done */
+
+.mortgage2 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 10px;
+    gap: 5px;
+}
+
+#p5 {
+    position: relative;
+    bottom: 3px;
+    font-size: 4.5px;
+    color: hsl(200, 24%, 40%);
+}
+
+#p6 {
+    width: 20px;
+    padding-top: 2px;
+    padding-left: 2px;
+    background-color: hsl(202, 86%, 94%);
+
+}
+
+#p7 {
+    position: relative;
+    bottom: 3px;
+    font-size: 4.5px;
+    color: hsl(200, 24%, 40%);
+}
+
+#p8 {
+    width: 19px;
+    padding-top: 3px;
+    padding-left: 6px;
+    background-color: hsl(202, 86%, 94%);
+}
+
+#span2 {
+    width: 30px;
+    padding: 3px;
+    font-weight: 600;
+    
+    
+}
+
+#span3 {
+    padding: 3px;
+    width: 30px;
+    font-weight: 600;
+
+}
+
+
+.button2 {
+    width: 50px;
+    height: 15px;
+    border: 0.5px solid hsl(200, 24%, 40%);
+    border-radius: 1px;
+    display: flex;
+    
+}
+
+
+.button3 {
+    width: 50px;
+    height: 15px;
+    border: 0.5px solid hsl(200, 24%, 40%);
+    border-radius: 1px;
+    display: flex;
+}
+
+/* done */
+
+.repaymentDiv {
+    display: flex;
+    flex-direction: column;
+    padding: 11px;
+    position: relative;
+    bottom: 5px;
+}
+
+.repayment  {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    height: 15px;
+    color: hsl(200, 24%, 40%);
+    border: 0.6px solid hsl(200, 24%, 40%);
+    border-radius: 1px;
+}
+
+.interestonly  {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    height: 15px;
+    color: hsl(200, 24%, 40%);
+    border: 0.6px solid hsl(200, 24%, 40%);
+    border-radius: 1px;
+}
+
+
+#radio1 {
+    width: 5px;
+    position: relative;
+    left: 4px;
+    top: 0.6px;
+}
+
+#radio2 {
+    width: 5px;
+    position: relative;
+    left: 4px;
+    top: 0.3px;
+}
+
+#p9 {
+    position: relative;
+    bottom: 3px;
+    color: hsl(200, 24%, 40%);
+    width: 100px;
+    font-size: 4.5px;
+}
+
+#p10 {
+    color: hsl(202, 55%, 16%) ;
+    font-weight: 700;
+    font-size: 5.3px;
+    padding-left: 7px;
+    padding-top: 3px;
+
+}
+
+#p11 {
+    color: hsl(202, 55%, 16%) ;
+    font-weight: 700;
+    font-size: 5.3px;
+    padding-left: 7px;
+    padding-top: 3px;
+
+
+}
+
+.button {
+    position: relative;
+    left: 10px;
+    bottom: 5px;
+    display: flex;
+    width: 85px;
+    height: 17px;
+    color: hsl(200, 24%, 40%);
+    border-radius: 10px;
+    background-color:  hsl(61, 70%, 52%);
+    
+
+}
+
+img {
+    width: 7px;
+    position: relative;
+    left: 5px;
+}
+
+#p12 {
+    color: hsl(202, 55%, 16%) ;
+    font-size: 5px;
+    padding-left: 8px;
+    padding-top: 4.9px;
+    font-weight: 700;
+
+}
+
+/* first div is done */
+
+.result {
+    padding: 10px;
+}
+
+#p13 {
+    font-size: 6.7px;
+    color: white;
+    font-weight: 600;
+    font-weight: 700;
+}
+
+#p14 {
+    width: 125px;
+    font-size: 5px;
+    font-weight: 600;
+    color: hsl(200, 24%, 40%);
+}
+
+#p15 {
+    font-size: 5px;
+    position: relative;
+    bottom: 5px;
+    color: hsl(200, 24%, 40%);
+}
+
+#p16 {
+    font-size: 13px;
+    font-weight: 700;
+    color:  hsl(61, 70%, 52%);
+}
+
+hr {
+    border: 0.1px solid hsl(200, 24%, 40%);
+}
+
+#p17 {
+    font-size: 5px;
+    color: hsl(200, 24%, 40%);
+}
+
+#p18 {
+    color: white;
+    font-weight: 600;
+    padding-top: 3px;
+}
+
+.yellowdiv {
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    width: 115px;
+    height: 80px;
+    border-top: 1.5px solid hsl(61, 70%, 52%);
+    background-color:  hsl(203, 53%, 13%);
+    border-radius: 3px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
