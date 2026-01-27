@@ -54,10 +54,6 @@ var FavoriteFood3 = "ghomi"
 console.log(`${name3},${bool3} ${age3}, ${city3}, ${FavoriteFood3}`)
 
 
-
-
-
-
 // 4) ახსენით typeof კუთვნილება, რატომ გამოიყენება და გააკეთეთ თითო თითო მაგალითი Boolean, String და Number ებზე typeof გამოყენებით
 
 //typeof გვეუბნევა მნიშვნელობის მონაცემთა ტიპს
