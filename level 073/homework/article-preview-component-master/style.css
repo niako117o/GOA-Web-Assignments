@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Gravitas+One&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=League+Spartan:wght@100..900&family=Manrope:wght@200..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(210, 46%, 95%);
+    font-family: Manrope;
+}
+
+.Parent {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-areas: 
+    "box1 box2"
+    ;
+    margin-right: 350px;
+}
+
+.div1 {
+    grid-area: box1;
+    width: 250px;
+    height: 250px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+}
+
+.div2 {
+    box-shadow: rgb(170, 197, 224) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    grid-area: box2;
+    width: 500px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#p1 {
+    font-size: 26px;
+    padding: 30px;
+    line-height: 30px;
+    font-weight: 600;
+    color: hsl(217, 19%, 35%);
+}
+
+#p2 {
+    width: 450px;
+    padding-left: 30px;
+    position: relative;
+    bottom: 10px;
+    color: hsl(212, 23%, 69%);
+}
+
+#img1 {
+    width: 300px;
+    height: 300px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.child1 {
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+    align-items: center;
+    margin-left: 33px;
+    margin-top: 10px;
+}
+
+.child2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#img2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+#p3 {
+    font-weight: 600;
+}
+
+#p4 {
+    color: hsl(212, 23%, 69%);
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
